@@ -1,0 +1,908 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Business.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler">
+            <summary>Shim-Typ von Business.Consumers.Contracts.OutputMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.#ctor(Business.Consumers.Contracts.OutputMeasurementHandler)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.AllInstances.HandleSensorDataObjectSensorDataReceivedArgs">
+            <summary>Legt die Shim von OutputMeasurementHandler.HandleSensorData(OutputMeasurementHandler this, Object sender, SensorDataReceivedArgs e) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.AllInstances.StartHandler">
+            <summary>Legt die Shim von OutputMeasurementHandler.StartHandler(OutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.AllInstances.StopHandler">
+            <summary>Legt die Shim von OutputMeasurementHandler.StopHandler(OutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.Bind(Business.Consumers.Contracts.IOutputMeasurementHandler)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.ConstructorISensorHubIMeasurementHubIServiceProviderIManagementService">
+            <summary>Legt die Shim von OutputMeasurementHandler.OutputMeasurementHandler(OutputMeasurementHandler this, ISensorHub sensorHub, IMeasurementHub measurementHub, IServiceProvider serviceProvider, IManagementService managementService) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.HandleSensorDataObjectSensorDataReceivedArgs">
+            <summary>Legt die Shim von OutputMeasurementHandler.HandleSensorData(OutputMeasurementHandler this, Object sender, SensorDataReceivedArgs e) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.StartHandler">
+            <summary>Legt die Shim von OutputMeasurementHandler.StartHandler(OutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.ShimOutputMeasurementHandler.StopHandler">
+            <summary>Legt die Shim von OutputMeasurementHandler.StopHandler(OutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Contracts.Fakes.StubIConsoleMeasurementHandler">
+            <summary>Stub-Typ von Business.Consumers.Contracts.IConsoleMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIConsoleMeasurementHandler.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubIConsoleMeasurementHandler.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIConsoleMeasurementHandler.Business#Consumers#Contracts#IConsoleMeasurementHandler#StartHandler">
+            <summary>Legt die Stub von IConsoleMeasurementHandler.StartHandler(IConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIConsoleMeasurementHandler.Business#Consumers#Contracts#IConsoleMeasurementHandler#StopHandler">
+            <summary>Legt die Stub von IConsoleMeasurementHandler.StopHandler(IConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="F:Business.Consumers.Contracts.Fakes.StubIConsoleMeasurementHandler.StartHandler">
+            <summary>Legt die stub von IConsoleMeasurementHandler.StartHandler(IConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="F:Business.Consumers.Contracts.Fakes.StubIConsoleMeasurementHandler.StopHandler">
+            <summary>Legt die stub von IConsoleMeasurementHandler.StopHandler(IConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Contracts.Fakes.StubIDatabaseMeasurementHandler">
+            <summary>Stub-Typ von Business.Consumers.Contracts.IDatabaseMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIDatabaseMeasurementHandler.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubIDatabaseMeasurementHandler.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIDatabaseMeasurementHandler.Business#Consumers#Contracts#IDatabaseMeasurementHandler#StartHandler">
+            <summary>Legt die Stub von IDatabaseMeasurementHandler.StartHandler(IDatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIDatabaseMeasurementHandler.Business#Consumers#Contracts#IDatabaseMeasurementHandler#StopHandler">
+            <summary>Legt die Stub von IDatabaseMeasurementHandler.StopHandler(IDatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="F:Business.Consumers.Contracts.Fakes.StubIDatabaseMeasurementHandler.StartHandler">
+            <summary>Legt die stub von IDatabaseMeasurementHandler.StartHandler(IDatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="F:Business.Consumers.Contracts.Fakes.StubIDatabaseMeasurementHandler.StopHandler">
+            <summary>Legt die stub von IDatabaseMeasurementHandler.StopHandler(IDatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Contracts.Fakes.StubIOutputMeasurementHandler">
+            <summary>Stub-Typ von Business.Consumers.Contracts.IOutputMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIOutputMeasurementHandler.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubIOutputMeasurementHandler.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIOutputMeasurementHandler.Business#Consumers#Contracts#IOutputMeasurementHandler#StartHandler">
+            <summary>Legt die Stub von IOutputMeasurementHandler.StartHandler(IOutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubIOutputMeasurementHandler.Business#Consumers#Contracts#IOutputMeasurementHandler#StopHandler">
+            <summary>Legt die Stub von IOutputMeasurementHandler.StopHandler(IOutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="F:Business.Consumers.Contracts.Fakes.StubIOutputMeasurementHandler.StartHandler">
+            <summary>Legt die stub von IOutputMeasurementHandler.StartHandler(IOutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="F:Business.Consumers.Contracts.Fakes.StubIOutputMeasurementHandler.StopHandler">
+            <summary>Legt die stub von IOutputMeasurementHandler.StopHandler(IOutputMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Contracts.Fakes.StubOutputMeasurementHandler">
+            <summary>Stub-Typ von Business.Consumers.Contracts.OutputMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubOutputMeasurementHandler.#ctor(Connection.Communication.Contracts.ISensorHub,Business.Hubs.Contracts.IMeasurementHub,System.IServiceProvider,Business.Services.Contracts.IManagementService)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.StubOutputMeasurementHandler.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Contracts.Fakes.StubOutputMeasurementHandler.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubOutputMeasurementHandler.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.StubOutputMeasurementHandler.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Contracts.Fakes.StubOutputMeasurementHandler.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Fakes.ShimConsoleMeasurementHandler">
+            <summary>Shim-Typ von Business.Consumers.ConsoleMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.#ctor(Business.Consumers.ConsoleMeasurementHandler)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.AllInstances.HandleSensorDataObjectSensorDataReceivedArgs">
+            <summary>Legt die Shim von ConsoleMeasurementHandler.HandleSensorData(ConsoleMeasurementHandler this, Object sender, SensorDataReceivedArgs e) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.AllInstances.StartHandler">
+            <summary>Legt die Shim von ConsoleMeasurementHandler.StartHandler(ConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.AllInstances.StopHandler">
+            <summary>Legt die Shim von ConsoleMeasurementHandler.StopHandler(ConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.Bind(Business.Consumers.Contracts.IConsoleMeasurementHandler)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.ConstructorISensorHub">
+            <summary>Legt die Shim von ConsoleMeasurementHandler.ConsoleMeasurementHandler(ConsoleMeasurementHandler this, ISensorHub sensorHub) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.HandleSensorDataObjectSensorDataReceivedArgs">
+            <summary>Legt die Shim von ConsoleMeasurementHandler.HandleSensorData(ConsoleMeasurementHandler this, Object sender, SensorDataReceivedArgs e) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.StartHandler">
+            <summary>Legt die Shim von ConsoleMeasurementHandler.StartHandler(ConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimConsoleMeasurementHandler.StopHandler">
+            <summary>Legt die Shim von ConsoleMeasurementHandler.StopHandler(ConsoleMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler">
+            <summary>Shim-Typ von Business.Consumers.DatabaseMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.#ctor(Business.Consumers.DatabaseMeasurementHandler)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.AllInstances.HandleSensorDataObjectSensorDataReceivedArgs">
+            <summary>Legt die Shim von DatabaseMeasurementHandler.HandleSensorData(DatabaseMeasurementHandler this, Object sender, SensorDataReceivedArgs e) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.AllInstances.StartHandler">
+            <summary>Legt die Shim von DatabaseMeasurementHandler.StartHandler(DatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.AllInstances.StopHandler">
+            <summary>Legt die Shim von DatabaseMeasurementHandler.StopHandler(DatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.Bind(Business.Consumers.Contracts.IDatabaseMeasurementHandler)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.ConstructorISensorHubIMeasurementServiceIManagementServiceIServiceProvider">
+            <summary>Legt die Shim von DatabaseMeasurementHandler.DatabaseMeasurementHandler(DatabaseMeasurementHandler this, ISensorHub sensorHub, IMeasurementService measurementService, IManagementService managementService, IServiceProvider serviceProvider) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.HandleSensorDataObjectSensorDataReceivedArgs">
+            <summary>Legt die Shim von DatabaseMeasurementHandler.HandleSensorData(DatabaseMeasurementHandler this, Object sender, SensorDataReceivedArgs e) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.StartHandler">
+            <summary>Legt die Shim von DatabaseMeasurementHandler.StartHandler(DatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.ShimDatabaseMeasurementHandler.StopHandler">
+            <summary>Legt die Shim von DatabaseMeasurementHandler.StopHandler(DatabaseMeasurementHandler this) fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Fakes.StubConsoleMeasurementHandler">
+            <summary>Stub-Typ von Business.Consumers.ConsoleMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.StubConsoleMeasurementHandler.#ctor(Connection.Communication.Contracts.ISensorHub)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.StubConsoleMeasurementHandler.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.StubConsoleMeasurementHandler.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubConsoleMeasurementHandler.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.StubConsoleMeasurementHandler.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.StubConsoleMeasurementHandler.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Business.Consumers.Fakes.StubDatabaseMeasurementHandler">
+            <summary>Stub-Typ von Business.Consumers.DatabaseMeasurementHandler</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.StubDatabaseMeasurementHandler.#ctor(Connection.Communication.Contracts.ISensorHub,Business.Services.Contracts.IMeasurementService,Business.Services.Contracts.IManagementService,System.IServiceProvider)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.StubDatabaseMeasurementHandler.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Consumers.Fakes.StubDatabaseMeasurementHandler.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubDatabaseMeasurementHandler.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.StubDatabaseMeasurementHandler.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Consumers.Fakes.StubDatabaseMeasurementHandler.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Business.Hubs.Contracts.Fakes.StubIMeasurementHub">
+            <summary>Stub-Typ von Business.Hubs.Contracts.IMeasurementHub</summary>
+        </member>
+        <member name="M:Business.Hubs.Contracts.Fakes.StubIMeasurementHub.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubIMeasurementHub.</summary>
+        </member>
+        <member name="M:Business.Hubs.Contracts.Fakes.StubIMeasurementHub.Business#Hubs#Contracts#IMeasurementHub#SendMeasurements(System.String)">
+            <summary>Legt die Stub von IMeasurementHub.SendMeasurements(IMeasurementHub this, String measurementString) fest.</summary>
+        </member>
+        <member name="M:Business.Hubs.Contracts.Fakes.StubIMeasurementHub.Business#Hubs#Contracts#IMeasurementHub#SendOperationTimer(System.String)">
+            <summary>Legt die Stub von IMeasurementHub.SendOperationTimer(IMeasurementHub this, String operationTimer) fest.</summary>
+        </member>
+        <member name="F:Business.Hubs.Contracts.Fakes.StubIMeasurementHub.SendMeasurementsString">
+            <summary>Legt die stub von IMeasurementHub.SendMeasurements(IMeasurementHub this, String measurementString) fest.</summary>
+        </member>
+        <member name="F:Business.Hubs.Contracts.Fakes.StubIMeasurementHub.SendOperationTimerString">
+            <summary>Legt die stub von IMeasurementHub.SendOperationTimer(IMeasurementHub this, String operationTimer) fest.</summary>
+        </member>
+        <member name="T:Business.Hubs.Fakes.ShimMeasurementHub">
+            <summary>Shim-Typ von Business.Hubs.MeasurementHub</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.ShimMeasurementHub.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.ShimMeasurementHub.#ctor(Business.Hubs.MeasurementHub)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Business.Hubs.Fakes.ShimMeasurementHub.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.ShimMeasurementHub.AllInstances.SendMeasurementsString">
+            <summary>Legt die Shim von MeasurementHub.SendMeasurements(MeasurementHub this, String measurementString) fest.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.ShimMeasurementHub.AllInstances.SendOperationTimerString">
+            <summary>Legt die Shim von MeasurementHub.SendOperationTimer(MeasurementHub this, String operationTimer) fest.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.ShimMeasurementHub.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.ShimMeasurementHub.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.ShimMeasurementHub.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.ShimMeasurementHub.Bind(Business.Hubs.Contracts.IMeasurementHub)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.ShimMeasurementHub.Bind(System.IDisposable)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.ShimMeasurementHub.ConstructorIHubContextOfMeasurementHub">
+            <summary>Legt die Shim von MeasurementHub.MeasurementHub(MeasurementHub this, IHubContext`1 hubContext) fest.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.ShimMeasurementHub.SendMeasurementsString">
+            <summary>Legt die Shim von MeasurementHub.SendMeasurements(MeasurementHub this, String measurementString) fest.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.ShimMeasurementHub.SendOperationTimerString">
+            <summary>Legt die Shim von MeasurementHub.SendOperationTimer(MeasurementHub this, String operationTimer) fest.</summary>
+        </member>
+        <member name="T:Business.Hubs.Fakes.StubMeasurementHub">
+            <summary>Stub-Typ von Business.Hubs.MeasurementHub</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.StubMeasurementHub.#ctor(Microsoft.AspNetCore.SignalR.IHubContext{Business.Hubs.MeasurementHub})">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.StubMeasurementHub.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.StubMeasurementHub.Dispose(System.Boolean)">
+            <summary>Legt die Stub von Hub.Dispose(Hub this, Boolean disposing) fest.</summary>
+        </member>
+        <member name="F:Business.Hubs.Fakes.StubMeasurementHub.DisposeBoolean">
+            <summary>Legt die stub von Hub.Dispose(Hub this, Boolean disposing) fest.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.StubMeasurementHub.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubMeasurementHub.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.StubMeasurementHub.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Hubs.Fakes.StubMeasurementHub.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.StubMeasurementHub.OnConnectedAsync">
+            <summary>Legt die Stub von Hub.OnConnectedAsync(Hub this) fest.</summary>
+        </member>
+        <member name="F:Business.Hubs.Fakes.StubMeasurementHub.OnConnectedAsync01">
+            <summary>Legt die stub von Hub.OnConnectedAsync(Hub this) fest.</summary>
+        </member>
+        <member name="M:Business.Hubs.Fakes.StubMeasurementHub.OnDisconnectedAsync(System.Exception)">
+            <summary>Legt die Stub von Hub.OnDisconnectedAsync(Hub this, Exception exception) fest.</summary>
+        </member>
+        <member name="F:Business.Hubs.Fakes.StubMeasurementHub.OnDisconnectedAsyncException">
+            <summary>Legt die stub von Hub.OnDisconnectedAsync(Hub this, Exception exception) fest.</summary>
+        </member>
+        <member name="T:Business.Provider.Fakes.ShimOperationProvider">
+            <summary>Shim-Typ von Business.Provider.OperationProvider</summary>
+        </member>
+        <member name="M:Business.Provider.Fakes.ShimOperationProvider.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Provider.Fakes.ShimOperationProvider.#ctor(Business.Provider.OperationProvider)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.ActivateHandlerHandlerTypeModel">
+            <summary>Legt die Shim von OperationProvider.ActivateHandler(OperationProvider this, HandlerTypeModel type) fest.</summary>
+        </member>
+        <member name="T:Business.Provider.Fakes.ShimOperationProvider.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.AllInstances.ActivateHandlerHandlerTypeModel">
+            <summary>Legt die Shim von OperationProvider.ActivateHandler(OperationProvider this, HandlerTypeModel type) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.AllInstances.DeactivateHandlerHandlerTypeModel">
+            <summary>Legt die Shim von OperationProvider.DeactivateHandler(OperationProvider this, HandlerTypeModel type) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.AllInstances.GetGpioStateInt32">
+            <summary>Legt die Shim von OperationProvider.GetGpioState(OperationProvider this, Int32 pin) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.AllInstances.SetGpioStateInt32Boolean">
+            <summary>Legt die Shim von OperationProvider.SetGpioState(OperationProvider this, Int32 pin, Boolean state) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.AllInstances.WriteByteDataByte">
+            <summary>Legt die Shim von OperationProvider.WriteByteData(OperationProvider this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.AllInstances.WriteStringDataString">
+            <summary>Legt die Shim von OperationProvider.WriteStringData(OperationProvider this, String data) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.AllInstances._isUnixSystemGet">
+            <summary>Legt die Shim von OperationProvider.get__isUnixSystem(OperationProvider this) fest.</summary>
+        </member>
+        <member name="M:Business.Provider.Fakes.ShimOperationProvider.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Provider.Fakes.ShimOperationProvider.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.ConstructorISensorHubIDatabaseMeasurementHandlerIOutputMeasurementHandlerIConsoleMeasurementHandler">
+            <summary>Legt die Shim von OperationProvider.OperationProvider(OperationProvider this, ISensorHub sensorHub, IDatabaseMeasurementHandler databaseMeasurementHandler, IOutputMeasurementHandler outputMeasurementHandler, IConsoleMeasurementHandler consoleMeasurementHandler) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.DeactivateHandlerHandlerTypeModel">
+            <summary>Legt die Shim von OperationProvider.DeactivateHandler(OperationProvider this, HandlerTypeModel type) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.GetGpioStateInt32">
+            <summary>Legt die Shim von OperationProvider.GetGpioState(OperationProvider this, Int32 pin) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.SetGpioStateInt32Boolean">
+            <summary>Legt die Shim von OperationProvider.SetGpioState(OperationProvider this, Int32 pin, Boolean state) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.WriteByteDataByte">
+            <summary>Legt die Shim von OperationProvider.WriteByteData(OperationProvider this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider.WriteStringDataString">
+            <summary>Legt die Shim von OperationProvider.WriteStringData(OperationProvider this, String data) fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.ShimOperationProvider._isUnixSystemGet">
+            <summary>Legt die Shim von OperationProvider.get__isUnixSystem(OperationProvider this) fest.</summary>
+        </member>
+        <member name="T:Business.Provider.Fakes.StubOperationProvider">
+            <summary>Stub-Typ von Business.Provider.OperationProvider</summary>
+        </member>
+        <member name="M:Business.Provider.Fakes.StubOperationProvider.#ctor(Connection.Communication.Contracts.ISensorHub,Business.Consumers.Contracts.IDatabaseMeasurementHandler,Business.Consumers.Contracts.IOutputMeasurementHandler,Business.Consumers.Contracts.IConsoleMeasurementHandler)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.StubOperationProvider.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Provider.Fakes.StubOperationProvider.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubOperationProvider.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.StubOperationProvider.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Provider.Fakes.StubOperationProvider.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Business.Services.Contracts.Fakes.StubIManagementService">
+            <summary>Stub-Typ von Business.Services.Contracts.IManagementService</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubIManagementService.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#GetDaysToSave">
+            <summary>Legt die Stub von IManagementService.GetDaysToSave(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#GetDeviceId">
+            <summary>Legt die Stub von IManagementService.GetDeviceId(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#GetDeviceProperties">
+            <summary>Legt die Stub von IManagementService.GetDeviceProperties(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#GetHostName">
+            <summary>Legt die Stub von IManagementService.GetHostName(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#GetIPAdress">
+            <summary>Legt die Stub von IManagementService.GetIPAdress(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#GetMacAddr">
+            <summary>Legt die Stub von IManagementService.GetMacAddr(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#GetOperationTimerValue">
+            <summary>Legt die Stub von IManagementService.GetOperationTimerValue(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#InitDeviceProperties">
+            <summary>Legt die Stub von IManagementService.InitDeviceProperties(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#OperationTimerExists">
+            <summary>Legt die Stub von IManagementService.OperationTimerExists(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#ResetOperationTimer">
+            <summary>Legt die Stub von IManagementService.ResetOperationTimer(IManagementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#SetDaysToSave(System.Int32)">
+            <summary>Legt die Stub von IManagementService.SetDaysToSave(IManagementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#SetDeviceId(System.String)">
+            <summary>Legt die Stub von IManagementService.SetDeviceId(IManagementService this, String id) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIManagementService.Business#Services#Contracts#IManagementService#UpdateOperationTimerFromSensors(Common.Models.OperationTimerModel)">
+            <summary>Legt die Stub von IManagementService.UpdateOperationTimerFromSensors(IManagementService this, OperationTimerModel optModel) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.GetDaysToSave">
+            <summary>Legt die stub von IManagementService.GetDaysToSave(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.GetDeviceId">
+            <summary>Legt die stub von IManagementService.GetDeviceId(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.GetDeviceProperties">
+            <summary>Legt die stub von IManagementService.GetDeviceProperties(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.GetHostName">
+            <summary>Legt die stub von IManagementService.GetHostName(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.GetIPAdress">
+            <summary>Legt die stub von IManagementService.GetIPAdress(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.GetMacAddr">
+            <summary>Legt die stub von IManagementService.GetMacAddr(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.GetOperationTimerValue">
+            <summary>Legt die stub von IManagementService.GetOperationTimerValue(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.InitDeviceProperties">
+            <summary>Legt die stub von IManagementService.InitDeviceProperties(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.OperationTimerExists">
+            <summary>Legt die stub von IManagementService.OperationTimerExists(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.ResetOperationTimer">
+            <summary>Legt die stub von IManagementService.ResetOperationTimer(IManagementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.SetDaysToSaveInt32">
+            <summary>Legt die stub von IManagementService.SetDaysToSave(IManagementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.SetDeviceIdString">
+            <summary>Legt die stub von IManagementService.SetDeviceId(IManagementService this, String id) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIManagementService.UpdateOperationTimerFromSensorsOperationTimerModel">
+            <summary>Legt die stub von IManagementService.UpdateOperationTimerFromSensors(IManagementService this, OperationTimerModel optModel) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Contracts.Fakes.StubIMeasurementService">
+            <summary>Stub-Typ von Business.Services.Contracts.IMeasurementService</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubIMeasurementService.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.AddMeasurementFromSensorsICollectionOfMeasurementModelBoolean">
+            <summary>Legt die stub von IMeasurementService.AddMeasurementFromSensors(IMeasurementService this, ICollection`1 measurement, Boolean detachFromAddedElementsAutomatically) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#AddMeasurementFromSensors(System.Collections.Generic.ICollection{Common.Models.MeasurementModel},System.Boolean)">
+            <summary>Legt die Stub von IMeasurementService.AddMeasurementFromSensors(IMeasurementService this, ICollection`1 measurement, Boolean detachFromAddedElementsAutomatically) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#DeleteMeasurementById(System.Int32)">
+            <summary>Legt die Stub von IMeasurementService.DeleteMeasurementById(IMeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#DeleteMeasurementsOlderThanDays(System.Int32)">
+            <summary>Legt die Stub von IMeasurementService.DeleteMeasurementsOlderThanDays(IMeasurementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#GetAllMeasurements">
+            <summary>Legt die Stub von IMeasurementService.GetAllMeasurements(IMeasurementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#GetLastMeasurement">
+            <summary>Legt die Stub von IMeasurementService.GetLastMeasurement(IMeasurementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#GetMeasurementById(System.Int32)">
+            <summary>Legt die Stub von IMeasurementService.GetMeasurementById(IMeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#SendMeasurmentsToClient">
+            <summary>Legt die Stub von IMeasurementService.SendMeasurmentsToClient(IMeasurementService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubIMeasurementService.Business#Services#Contracts#IMeasurementService#WriteMeasurementsToFile(System.String)">
+            <summary>Legt die Stub von IMeasurementService.WriteMeasurementsToFile(IMeasurementService this, String name) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.DeleteMeasurementByIdInt32">
+            <summary>Legt die stub von IMeasurementService.DeleteMeasurementById(IMeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.DeleteMeasurementsOlderThanDaysInt32">
+            <summary>Legt die stub von IMeasurementService.DeleteMeasurementsOlderThanDays(IMeasurementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.GetAllMeasurements">
+            <summary>Legt die stub von IMeasurementService.GetAllMeasurements(IMeasurementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.GetLastMeasurement">
+            <summary>Legt die stub von IMeasurementService.GetLastMeasurement(IMeasurementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.GetMeasurementByIdInt32">
+            <summary>Legt die stub von IMeasurementService.GetMeasurementById(IMeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.SendMeasurmentsToClient">
+            <summary>Legt die stub von IMeasurementService.SendMeasurmentsToClient(IMeasurementService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubIMeasurementService.WriteMeasurementsToFileString">
+            <summary>Legt die stub von IMeasurementService.WriteMeasurementsToFile(IMeasurementService this, String name) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Contracts.Fakes.StubISensorService">
+            <summary>Stub-Typ von Business.Services.Contracts.ISensorService</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubISensorService.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubISensorService.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubISensorService.AddSensorFromSensorsSensorModel">
+            <summary>Legt die stub von ISensorService.AddSensorFromSensors(ISensorService this, SensorModel sensor) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubISensorService.Business#Services#Contracts#ISensorService#AddSensorFromSensors(Common.Models.SensorModel)">
+            <summary>Legt die Stub von ISensorService.AddSensorFromSensors(ISensorService this, SensorModel sensor) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubISensorService.Business#Services#Contracts#ISensorService#DeleteSensor(System.Int32)">
+            <summary>Legt die Stub von ISensorService.DeleteSensor(ISensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubISensorService.Business#Services#Contracts#ISensorService#EditSensorProperties(Common.Models.SensorModel)">
+            <summary>Legt die Stub von ISensorService.EditSensorProperties(ISensorService this, SensorModel sensor) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubISensorService.Business#Services#Contracts#ISensorService#GetAllSensors">
+            <summary>Legt die Stub von ISensorService.GetAllSensors(ISensorService this) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubISensorService.Business#Services#Contracts#ISensorService#GetAllSensors(System.Boolean)">
+            <summary>Legt die Stub von ISensorService.GetAllSensors(ISensorService this, Boolean isActive) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Contracts.Fakes.StubISensorService.Business#Services#Contracts#ISensorService#GetSensorById(System.Int32)">
+            <summary>Legt die Stub von ISensorService.GetSensorById(ISensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubISensorService.DeleteSensorInt32">
+            <summary>Legt die stub von ISensorService.DeleteSensor(ISensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubISensorService.EditSensorPropertiesSensorModel">
+            <summary>Legt die stub von ISensorService.EditSensorProperties(ISensorService this, SensorModel sensor) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubISensorService.GetAllSensors">
+            <summary>Legt die stub von ISensorService.GetAllSensors(ISensorService this) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubISensorService.GetAllSensorsBoolean">
+            <summary>Legt die stub von ISensorService.GetAllSensors(ISensorService this, Boolean isActive) fest.</summary>
+        </member>
+        <member name="F:Business.Services.Contracts.Fakes.StubISensorService.GetSensorByIdInt32">
+            <summary>Legt die stub von ISensorService.GetSensorById(ISensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.ShimManagementService">
+            <summary>Shim-Typ von Business.Services.ManagementService</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimManagementService.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimManagementService.#ctor(Business.Services.ManagementService)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.ShimManagementService.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.GetDaysToSave">
+            <summary>Legt die Shim von ManagementService.GetDaysToSave(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.GetDeviceId">
+            <summary>Legt die Shim von ManagementService.GetDeviceId(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.GetDeviceProperties">
+            <summary>Legt die Shim von ManagementService.GetDeviceProperties(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.GetHostName">
+            <summary>Legt die Shim von ManagementService.GetHostName(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.GetIPAdress">
+            <summary>Legt die Shim von ManagementService.GetIPAdress(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.GetMacAddr">
+            <summary>Legt die Shim von ManagementService.GetMacAddr(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.GetOperationTimerValue">
+            <summary>Legt die Shim von ManagementService.GetOperationTimerValue(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.InitDeviceProperties">
+            <summary>Legt die Shim von ManagementService.InitDeviceProperties(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.OperationTimerExists">
+            <summary>Legt die Shim von ManagementService.OperationTimerExists(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.ResetOperationTimer">
+            <summary>Legt die Shim von ManagementService.ResetOperationTimer(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.SetDaysToSaveInt32">
+            <summary>Legt die Shim von ManagementService.SetDaysToSave(ManagementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.SetDeviceIdString">
+            <summary>Legt die Shim von ManagementService.SetDeviceId(ManagementService this, String id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.AllInstances.UpdateOperationTimerFromSensorsOperationTimerModel">
+            <summary>Legt die Shim von ManagementService.UpdateOperationTimerFromSensors(ManagementService this, OperationTimerModel optModel) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimManagementService.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimManagementService.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimManagementService.Bind(Business.Services.Contracts.IManagementService)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.ConstructorDataLoggerDbContextIMapper">
+            <summary>Legt die Shim von ManagementService.ManagementService(ManagementService this, DataLoggerDbContext dBContext, IMapper mapper) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.GetDaysToSave">
+            <summary>Legt die Shim von ManagementService.GetDaysToSave(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.GetDeviceId">
+            <summary>Legt die Shim von ManagementService.GetDeviceId(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.GetDeviceProperties">
+            <summary>Legt die Shim von ManagementService.GetDeviceProperties(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.GetHostName">
+            <summary>Legt die Shim von ManagementService.GetHostName(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.GetIPAdress">
+            <summary>Legt die Shim von ManagementService.GetIPAdress(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.GetMacAddr">
+            <summary>Legt die Shim von ManagementService.GetMacAddr(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.GetOperationTimerValue">
+            <summary>Legt die Shim von ManagementService.GetOperationTimerValue(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.InitDeviceProperties">
+            <summary>Legt die Shim von ManagementService.InitDeviceProperties(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.OperationTimerExists">
+            <summary>Legt die Shim von ManagementService.OperationTimerExists(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.ResetOperationTimer">
+            <summary>Legt die Shim von ManagementService.ResetOperationTimer(ManagementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.SetDaysToSaveInt32">
+            <summary>Legt die Shim von ManagementService.SetDaysToSave(ManagementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.SetDeviceIdString">
+            <summary>Legt die Shim von ManagementService.SetDeviceId(ManagementService this, String id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimManagementService.UpdateOperationTimerFromSensorsOperationTimerModel">
+            <summary>Legt die Shim von ManagementService.UpdateOperationTimerFromSensors(ManagementService this, OperationTimerModel optModel) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.ShimMeasurementService">
+            <summary>Shim-Typ von Business.Services.MeasurementService</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimMeasurementService.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimMeasurementService.#ctor(Business.Services.MeasurementService)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AddMeasurementFromSensorsICollectionOfMeasurementModelBoolean">
+            <summary>Legt die Shim von MeasurementService.AddMeasurementFromSensors(MeasurementService this, ICollection`1 measurement, Boolean detachFromAddedElementsAutomatically) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.ShimMeasurementService.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.AddMeasurementFromSensorsICollectionOfMeasurementModelBoolean">
+            <summary>Legt die Shim von MeasurementService.AddMeasurementFromSensors(MeasurementService this, ICollection`1 measurement, Boolean detachFromAddedElementsAutomatically) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.DeleteMeasurementByIdInt32">
+            <summary>Legt die Shim von MeasurementService.DeleteMeasurementById(MeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.DeleteMeasurementsOlderThanDaysInt32">
+            <summary>Legt die Shim von MeasurementService.DeleteMeasurementsOlderThanDays(MeasurementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.GetAllMeasurements">
+            <summary>Legt die Shim von MeasurementService.GetAllMeasurements(MeasurementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.GetLastMeasurement">
+            <summary>Legt die Shim von MeasurementService.GetLastMeasurement(MeasurementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.GetMeasurementByIdInt32">
+            <summary>Legt die Shim von MeasurementService.GetMeasurementById(MeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.SendMeasurmentsToClient">
+            <summary>Legt die Shim von MeasurementService.SendMeasurmentsToClient(MeasurementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.AllInstances.WriteMeasurementsToFileString">
+            <summary>Legt die Shim von MeasurementService.WriteMeasurementsToFile(MeasurementService this, String name) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimMeasurementService.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimMeasurementService.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimMeasurementService.Bind(Business.Services.Contracts.IMeasurementService)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.ConstructorDataLoggerDbContextIMapper">
+            <summary>Legt die Shim von MeasurementService.MeasurementService(MeasurementService this, DataLoggerDbContext dBContext, IMapper mapper) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.DeleteMeasurementByIdInt32">
+            <summary>Legt die Shim von MeasurementService.DeleteMeasurementById(MeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.DeleteMeasurementsOlderThanDaysInt32">
+            <summary>Legt die Shim von MeasurementService.DeleteMeasurementsOlderThanDays(MeasurementService this, Int32 days) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.GetAllMeasurements">
+            <summary>Legt die Shim von MeasurementService.GetAllMeasurements(MeasurementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.GetLastMeasurement">
+            <summary>Legt die Shim von MeasurementService.GetLastMeasurement(MeasurementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.GetMeasurementByIdInt32">
+            <summary>Legt die Shim von MeasurementService.GetMeasurementById(MeasurementService this, Int32 id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.SendMeasurmentsToClient">
+            <summary>Legt die Shim von MeasurementService.SendMeasurmentsToClient(MeasurementService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimMeasurementService.WriteMeasurementsToFileString">
+            <summary>Legt die Shim von MeasurementService.WriteMeasurementsToFile(MeasurementService this, String name) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.ShimSensorService">
+            <summary>Shim-Typ von Business.Services.SensorService</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimSensorService.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimSensorService.#ctor(Business.Services.SensorService)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.AddSensorFromSensorsSensorModel">
+            <summary>Legt die Shim von SensorService.AddSensorFromSensors(SensorService this, SensorModel sensormodel) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.ShimSensorService.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.AllInstances.AddSensorFromSensorsSensorModel">
+            <summary>Legt die Shim von SensorService.AddSensorFromSensors(SensorService this, SensorModel sensormodel) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.AllInstances.DeleteSensorInt32">
+            <summary>Legt die Shim von SensorService.DeleteSensor(SensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.AllInstances.EditSensorPropertiesSensorModel">
+            <summary>Legt die Shim von SensorService.EditSensorProperties(SensorService this, SensorModel sensorModel) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.AllInstances.GetAllSensors">
+            <summary>Legt die Shim von SensorService.GetAllSensors(SensorService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.AllInstances.GetAllSensorsBoolean">
+            <summary>Legt die Shim von SensorService.GetAllSensors(SensorService this, Boolean isActive) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.AllInstances.GetSensorByIdInt32">
+            <summary>Legt die Shim von SensorService.GetSensorById(SensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimSensorService.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimSensorService.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.ShimSensorService.Bind(Business.Services.Contracts.ISensorService)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.ConstructorDataLoggerDbContextIMapper">
+            <summary>Legt die Shim von SensorService.SensorService(SensorService this, DataLoggerDbContext dBContext, IMapper mapper) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.DeleteSensorInt32">
+            <summary>Legt die Shim von SensorService.DeleteSensor(SensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.EditSensorPropertiesSensorModel">
+            <summary>Legt die Shim von SensorService.EditSensorProperties(SensorService this, SensorModel sensorModel) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.GetAllSensors">
+            <summary>Legt die Shim von SensorService.GetAllSensors(SensorService this) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.GetAllSensorsBoolean">
+            <summary>Legt die Shim von SensorService.GetAllSensors(SensorService this, Boolean isActive) fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.ShimSensorService.GetSensorByIdInt32">
+            <summary>Legt die Shim von SensorService.GetSensorById(SensorService this, Int32 id) fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.StubManagementService">
+            <summary>Stub-Typ von Business.Services.ManagementService</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.StubManagementService.#ctor(Domain.DataLoggerDbContext,AutoMapper.IMapper)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubManagementService.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.StubManagementService.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubManagementService.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubManagementService.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubManagementService.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.StubMeasurementService">
+            <summary>Stub-Typ von Business.Services.MeasurementService</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.StubMeasurementService.#ctor(Domain.DataLoggerDbContext,AutoMapper.IMapper)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubMeasurementService.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.StubMeasurementService.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubMeasurementService.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubMeasurementService.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubMeasurementService.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Business.Services.Fakes.StubSensorService">
+            <summary>Stub-Typ von Business.Services.SensorService</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.StubSensorService.#ctor(Domain.DataLoggerDbContext,AutoMapper.IMapper)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubSensorService.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Business.Services.Fakes.StubSensorService.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubSensorService.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubSensorService.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Business.Services.Fakes.StubSensorService.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+    </members>
+</doc>

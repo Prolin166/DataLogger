@@ -1,0 +1,173 @@
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:03:35;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:03:35;22.2222;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:30:27;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:30:28;22.2222;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:31:23;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:31:23;22.2222;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:31:48;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:31:48;22.2222;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:35:31;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:35:31;22.2222;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:37:11;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:37:11;22.2222;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:43:18;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:43:18;22.2222;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:54:18;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:54:18;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 19:54:18;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 19:55:03;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 19:55:03;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 19:55:03;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 20:26:27;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 20:26:27;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 20:26:27;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 20:38:17;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 20:38:17;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 20:38:17;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 20:38:53;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 20:38:53;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 20:38:53;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 21:27:35;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 21:27:35;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 21:27:35;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 21:28:14;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 21:28:14;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 21:28:14;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;03/31/2021 21:29:04;11.1111;0;0;;Pressure;0;False;V
+2;03/31/2021 21:29:04;22.2222;0;0;;Pressure;0;False;V
+3;03/31/2021 21:29:04;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/02/2021 20:55:23;11.1111;0;0;;Pressure;0;False;V
+2;04/02/2021 20:55:23;22.2222;0;0;;Pressure;0;False;V
+3;04/02/2021 20:55:23;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/02/2021 21:04:16;11.1111;0;0;;Pressure;0;False;V
+2;04/02/2021 21:04:16;22.2222;0;0;;Pressure;0;False;V
+3;04/02/2021 21:04:16;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/02/2021 21:06:06;11.1111;0;0;;Pressure;0;False;V
+2;04/02/2021 21:06:06;22.2222;0;0;;Pressure;0;False;V
+3;04/02/2021 21:06:06;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/02/2021 21:06:30;11.1111;0;0;;Pressure;0;False;V
+2;04/02/2021 21:06:30;22.2222;0;0;;Pressure;0;False;V
+3;04/02/2021 21:06:30;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 12:27:09;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 12:27:09;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 12:27:09;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 13:39:08;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 13:39:08;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 13:39:08;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 13:50:39;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 13:50:39;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 13:50:39;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 13:56:03;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 13:56:03;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 13:56:03;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 13:56:50;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 13:56:50;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 13:56:50;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 13:57:53;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 13:57:53;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 13:57:53;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:04:56;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:04:56;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:04:56;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:09:36;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:09:36;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:09:36;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:13:50;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:13:50;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:13:50;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:14:22;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:14:22;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:14:22;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:42:00;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:42:00;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:42:00;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:46:06;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:46:06;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:46:06;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:46:49;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:46:49;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:46:49;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:58:05;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:58:05;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:58:05;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 14:59:09;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 14:59:09;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 14:59:09;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 15:20:15;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 15:20:15;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 15:20:15;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/05/2021 15:49:00;11.1111;0;0;;Pressure;0;False;V
+2;04/05/2021 15:49:00;22.2222;0;0;;Pressure;0;False;V
+3;04/05/2021 15:49:00;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/08/2021 14:39:38;11.1111;0;0;;Pressure;0;False;V
+2;04/08/2021 14:39:38;22.2222;0;0;;Pressure;0;False;V
+3;04/08/2021 14:39:38;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/08/2021 14:42:05;11.1111;0;0;;Pressure;0;False;V
+2;04/08/2021 14:42:05;22.2222;0;0;;Pressure;0;False;V
+3;04/08/2021 14:42:05;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/08/2021 14:42:46;11.1111;0;0;;Pressure;0;False;V
+2;04/08/2021 14:42:46;22.2222;0;0;;Pressure;0;False;V
+3;04/08/2021 14:42:46;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/08/2021 14:44:07;11.1111;0;0;;Pressure;0;False;V
+2;04/08/2021 14:44:07;22.2222;0;0;;Pressure;0;False;V
+3;04/08/2021 14:44:07;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/08/2021 19:07:57;11.1111;0;0;;Pressure;0;False;V
+2;04/08/2021 19:07:57;22.2222;0;0;;Pressure;0;False;V
+3;04/08/2021 19:07:57;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/09/2021 15:44:04;11.1111;0;0;;Pressure;0;False;V
+2;04/09/2021 15:44:04;22.2222;0;0;;Pressure;0;False;V
+3;04/09/2021 15:44:04;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/16/2021 23:42:08;11.1111;0;0;;Pressure;0;False;V
+2;04/16/2021 23:42:08;22.2222;0;0;;Pressure;0;False;V
+3;04/16/2021 23:42:08;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;04/16/2021 23:43:23;11.1111;0;0;;Pressure;0;False;V
+2;04/16/2021 23:43:23;22.2222;0;0;;Pressure;0;False;V
+3;04/16/2021 23:43:23;33.3333;0;0;;Pressure;0;False;V
+Id;Timestamp;Value;SensorId;Id;Name;Type;Port;Enabled;Unit
+1;10/27/2021 20:19:53;11.1111;0;0;;Pressure;0;False;V
+2;10/27/2021 20:19:53;22.2222;0;0;;Pressure;0;False;V
+3;10/27/2021 20:19:53;33.3333;0;0;;Pressure;0;False;V

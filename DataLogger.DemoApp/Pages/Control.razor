@@ -1,0 +1,119 @@
+﻿@page "/control"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+@inject HttpClient Client
+@inject NavigationManager NavigationManager
+@implements IAsyncDisposable
+@inject IJSRuntime _jsRuntime
+
+<h3>Einstellungen</h3>
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label><b>Geräte ID:</b></label><br />
+            <input @bind="@_deviceId" /><br />
+            <button type="button" class="btn btn-secondary" btn-sm @onclick="@OnClickSetId">Ändern</button>
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Anzahl Messungen in Datenbank (Tage):</b></label><br />
+            <input @bind="@_daysToSave" /><br />
+            <button type="button" class="btn btn-secondary" btn-sm @onclick="@OnClickSetDaysToSave">Ändern</button>
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>IP-Adresse:</b></label><br />
+            <label>@_ipAdress</label>
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Hostname:</b></label><br />
+            <label>@_hostName</label>
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>MAC-Adresse:</b></label><br />
+            <label>@_macAdress</label>
+        </div>
+    </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label><b>Betriebsstundenzähler:&nbsp;</b></label>
+                <br /><label>@_operationTimer.CumulatedCount.Days</label><label>Tage&nbsp;</label>
+                <label>@_operationTimer.CumulatedCount.Hours</label><label>Stunden&nbsp;</label>
+                <label>@_operationTimer.CumulatedCount.Minutes</label><label>Minuten&nbsp;</label>
+                <label>@_operationTimer.CumulatedCount.Seconds</label><label>Sekunden&nbsp;</label>
+                <br /><button type="button" class="btn btn-secondary" btn-sm @onclick="@OnClickResetOpt">Reset</button>
+            </div>
+        </div>
+</form>
+
+@code {
+    private HubConnection hubConnection;
+    private string _deviceId;
+    private string _ipAdress;
+    private string _hostName;
+    private string _macAdress;
+    private string _daysToSave;
+    private OperationTimerModel _operationTimer = new OperationTimerModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var resultid = await Client.GetAsync("/api/management/getdeviceid");
+        _deviceId = await resultid.Content.ReadAsStringAsync();
+
+        var resultwi = await Client.GetAsync("/api/management/getipadress");
+        _ipAdress = await resultwi.Content.ReadAsStringAsync();
+
+        var resultsi = await Client.GetAsync("/api/management/gethostname");
+        _hostName = await resultsi.Content.ReadAsStringAsync();
+
+        var resultmd = await Client.GetAsync("/api/management/getmacadress");
+        _macAdress = await resultmd.Content.ReadAsStringAsync();
+
+        var resultdd = await Client.GetAsync("/api/management/getdaystosave");
+        _daysToSave = await resultdd.Content.ReadAsStringAsync();
+
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl($"{Client.BaseAddress}measurementhub")
+        .Build();
+
+        hubConnection.On<string>("ReceiveOperationTimer", (measurementString) =>
+        {
+            var encodedMsg = $"{measurementString}";
+            var jsonMessage = JsonConvert.DeserializeObject<OperationTimerModel>(encodedMsg);
+
+            _operationTimer.CumulatedCount = jsonMessage.CumulatedCount;
+
+            StateHasChanged();
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private async Task OnClickSetId()
+    {
+        await Client.PostAsync($"/api/management/setdeviceid?id={_deviceId}", new StringContent(""));
+        var resultid = await Client.GetAsync("/api/management/getdeviceid");
+        _deviceId = await resultid.Content.ReadAsStringAsync();
+    }
+
+    private async Task OnClickSetDaysToSave()
+    {
+        await Client.PostAsync($"/api/management/setdaystosave?days={_daysToSave}", new StringContent(""));
+        var resultdd = await Client.GetAsync("/api/management/getdaystosave");
+        _daysToSave = await resultdd.Content.ReadAsStringAsync();
+    }
+
+    private async Task OnClickResetOpt()
+    {
+        await Client.PostAsync("/api/management/resetoperationtimer", new StringContent(""));
+    }
+
+    public bool IsConnected => hubConnection.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        await hubConnection.DisposeAsync();
+    }
+
+}
+
+
+

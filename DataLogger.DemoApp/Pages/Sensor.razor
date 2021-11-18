@@ -1,0 +1,121 @@
+﻿@page "/sensor"
+@inject HttpClient Client
+@using Common.Enums;
+@using Blazorise.Components;
+<h3>Sensoren</h3>
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label><b>Sensor ID:</b></label><br />
+            <Select @bind-SelectedValue="@_sensorIdToShow">
+                @foreach (var item in _sensorList)
+                {
+                    <SelectItem Value=@item.Id>@item.Id @item.Name</SelectItem>
+                }
+            </Select>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <button type="button" class="btn btn-secondary" btn-lg @onclick="@OnClickGetSensor">Sensor laden</button>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label><b>Sensor-ID:</b></label><br />
+            <label>@_sensorIdToSend</label><br />
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Sensor-Name:</b></label><br />
+            <input @bind="@_sensorName"/><br />
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Sensor-Typ:</b></label><br />
+            <Select @bind-SelectedValue="@_sensorType">
+                @foreach (var item in SensorTypeModel.GetNames<SensorTypeModel>().ToList())
+                {
+                    <SelectItem Value=@item>@item</SelectItem>
+                }
+            </Select>
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Sensor-Port:</b></label><br />
+            <Select @bind-SelectedValue="@_sensorPort">
+                @foreach (var item in ConnectionPortModel.GetNames<ConnectionPortModel>().ToList())
+                {
+                    <SelectItem Value=@item>@item</SelectItem>
+                }
+            </Select>
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Sensor-Aktiv:</b></label><br />
+            <Select @bind-SelectedValue="@_sensorEnabled">
+                @foreach (var item in EnableTypeModel.GetNames<EnableTypeModel>().ToList())
+                {
+                    <SelectItem Value=@item>@item</SelectItem>
+                }
+            </Select>
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Sensor-Einheit:</b></label><br />
+            <Select @bind-SelectedValue="@_sensorUnit">
+                @foreach (var item in UnitModel.GetNames<UnitModel>().ToList())
+                {
+                    <SelectItem Value=@item>@item</SelectItem>
+                }
+            </Select>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <button type="button" class="btn btn-secondary" btn-lg @onclick="@OnClickSetSensor">Sensor ändern</button>
+        </div>
+    </div>
+</form>
+
+@code {
+    private int _sensorIdToShow;
+    private int _sensorIdToSend;
+    private string _sensorName;
+    private SensorTypeModel _sensorType;
+    private ConnectionPortModel _sensorPort;
+    private EnableTypeModel _sensorEnabled;
+    private UnitModel _sensorUnit;
+    private List<SensorModel> _sensorList = new List<SensorModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _sensorList = await Client.GetFromJsonAsync<List<SensorModel>>("/api/sensors/getallsensors");
+        _sensorIdToSend = 1;
+        _sensorIdToShow = 1;
+    }
+
+    private async Task OnClickGetSensor()
+    {
+        var sensor = await Client.GetFromJsonAsync<SensorModel>($"/api/sensors/getsensor?id={_sensorIdToShow}");
+
+        _sensorIdToSend = sensor.Id;
+        _sensorName = sensor.Name;
+        _sensorType = sensor.Type;
+        _sensorUnit = sensor.Unit;
+        _sensorPort = sensor.Port;
+        _sensorEnabled = sensor.Enabled;
+    }
+
+    private async Task OnClickSetSensor()
+    {
+        var sensor = new SensorModel
+        {
+            Id = _sensorIdToSend,
+            Name = _sensorName,
+            Type = _sensorType,
+            Unit = _sensorUnit,
+            Port = _sensorPort,
+            Enabled = _sensorEnabled
+        };
+
+        await Client.PostAsJsonAsync<SensorModel>($"/api/sensors/editsensor", sensor);
+
+        _sensorList = await Client.GetFromJsonAsync<List<SensorModel>>("/api/sensors/getallsensors");
+    }
+}

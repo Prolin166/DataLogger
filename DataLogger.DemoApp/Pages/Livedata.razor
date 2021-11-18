@@ -1,0 +1,79 @@
+﻿@page "/livedata"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+@inject HttpClient Client
+@implements IAsyncDisposable
+@inject IJSRuntime _jsRuntime
+
+<h3>Live-Werte aus der Wetterstation:</h3>
+<form>
+    <div class="form-row">
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" @onclick=DownloadCsvAsync>Export CSV</button>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Session ID:</label>
+        <label>@_sessionId</label>
+    </div>
+    <div class="form-row">
+        @foreach (var model in _models)
+        {
+            model.Sensor = _allSensor.FirstOrDefault(s => s.Id == model.SensorId);
+            <div class="form-group col-md-6">
+                <label><b>Sensor @model.SensorId</b></label><br />
+                <label>@model.Value</label><label>&nbsp;@model.Sensor.Unit</label>
+            </div>
+        }
+
+    </div>
+</form>
+
+
+
+@code {
+    private HubConnection _hubConnection;
+    private SensorModel _sensor;
+    private ICollection<MeasurementModel> _models = new List<MeasurementModel>();
+    private List<SensorModel> _allSensor = new List<SensorModel>();
+    private int _sessionId;
+    private MeasurementModel _measure;
+    private string _measurementInput;
+
+    private async Task DownloadCsvAsync()
+    {
+        await _jsRuntime.InvokeVoidAsync("downloadFileFromUrl", $"{Client.BaseAddress}api/measurements/downloadmeasurements?name=Messungen");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        _allSensor = await Client.GetFromJsonAsync<List<SensorModel>>("/api/sensors/getallsensors");
+
+        _hubConnection = new HubConnectionBuilder()
+    .WithUrl($"{Client.BaseAddress}measurementhub")
+    .Build();
+
+        _hubConnection.On<string>("ReceiveMeasurementString", (measurementString) =>
+        {
+            var encodedMsg = $"{measurementString}";
+            var jsonMessage = JsonConvert.DeserializeObject<ControllerNotificationModel>(encodedMsg);
+
+            _sessionId = jsonMessage.SessionId;
+            _models = jsonMessage.Measurements;
+
+            StateHasChanged();
+        });
+
+        await _hubConnection.StartAsync();
+    }
+
+    public bool IsConnected => _hubConnection.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        await _hubConnection.DisposeAsync();
+    }
+
+
+}
+

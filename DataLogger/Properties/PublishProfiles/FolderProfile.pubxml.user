@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\janel\Documents\Sandbox\DataLogger\ReleaseDataLogger</_PublishTargetUrl>
+    <History>False|2021-05-06T18:07:57.1537566Z;False|2021-05-06T20:06:39.2683270+02:00;True|2021-05-06T20:02:37.9178100+02:00;True|2021-05-06T19:20:39.0933476+02:00;True|2021-05-06T18:54:38.7000586+02:00;True|2021-04-29T22:00:09.8725225+02:00;True|2021-04-29T21:57:41.1580603+02:00;True|2021-04-29T20:54:26.3864578+02:00;True|2021-04-29T20:12:24.0436240+02:00;True|2021-04-21T20:00:48.5474191+02:00;True|2021-04-20T23:10:20.6018770+02:00;True|2021-03-14T20:40:37.1788208+01:00;</History>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Connection.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Connection.Communication.Contracts.Fakes.StubISensorHub">
+            <summary>Stub-Typ von Connection.Communication.Contracts.ISensorHub</summary>
+        </member>
+        <member name="M:Connection.Communication.Contracts.Fakes.StubISensorHub.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubISensorHub.</summary>
+        </member>
+        <member name="M:Connection.Communication.Contracts.Fakes.StubISensorHub.Connection#Communication#Contracts#ISensorHub#Connection_WriteByteData(System.Byte)">
+            <summary>Legt die Stub von ISensorHub.Connection_WriteByteData(ISensorHub this, Byte data) fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Contracts.Fakes.StubISensorHub.Connection#Communication#Contracts#ISensorHub#Connection_WriteStringData(System.String)">
+            <summary>Legt die Stub von ISensorHub.Connection_WriteStringData(ISensorHub this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Contracts.Fakes.StubISensorHub.Connection#Communication#Contracts#ISensorHub#Initialize">
+            <summary>Legt die Stub von ISensorHub.Initialize(ISensorHub this) fest.</summary>
+        </member>
+        <member name="F:Connection.Communication.Contracts.Fakes.StubISensorHub.Connection_WriteByteDataByte">
+            <summary>Legt die stub von ISensorHub.Connection_WriteByteData(ISensorHub this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Communication.Contracts.Fakes.StubISensorHub.Connection_WriteStringDataString">
+            <summary>Legt die stub von ISensorHub.Connection_WriteStringData(ISensorHub this, String data) fest.</summary>
+        </member>
+        <member name="F:Connection.Communication.Contracts.Fakes.StubISensorHub.Initialize">
+            <summary>Legt die stub von ISensorHub.Initialize(ISensorHub this) fest.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.ShimDeviceConnectionFactory">
+            <summary>Shim-Typ von Connection.Communication.DeviceConnectionFactory</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimDeviceConnectionFactory.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimDeviceConnectionFactory.#ctor(Connection.Communication.DeviceConnectionFactory)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances.CreateConnection">
+            <summary>Legt die Shim von DeviceConnectionFactory.CreateConnection(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances.DeviceConnectionTypeGet">
+            <summary>Legt die Shim von DeviceConnectionFactory.get_DeviceConnectionType(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances.DeviceConnectionTypeSetDeviceConnectionType">
+            <summary>Legt die Shim von DeviceConnectionFactory.set_DeviceConnectionType(DeviceConnectionFactory this, DeviceConnectionType value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances.SerialConnectionOptionsGet">
+            <summary>Legt die Shim von DeviceConnectionFactory.get_SerialConnectionOptions(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances.SerialConnectionOptionsSetSerialConnectionOptions">
+            <summary>Legt die Shim von DeviceConnectionFactory.set_SerialConnectionOptions(DeviceConnectionFactory this, SerialConnectionOptions value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances.SimulationConnectionOptionsGet">
+            <summary>Legt die Shim von DeviceConnectionFactory.get_SimulationConnectionOptions(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.AllInstances.SimulationConnectionOptionsSetSimulationConnectionOptions">
+            <summary>Legt die Shim von DeviceConnectionFactory.set_SimulationConnectionOptions(DeviceConnectionFactory this, SimulationConnectionOptions value) fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimDeviceConnectionFactory.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimDeviceConnectionFactory.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.Constructor">
+            <summary>Legt die Shim von DeviceConnectionFactory.DeviceConnectionFactory(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.CreateConnection">
+            <summary>Legt die Shim von DeviceConnectionFactory.CreateConnection(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.DeviceConnectionTypeGet">
+            <summary>Legt die Shim von DeviceConnectionFactory.get_DeviceConnectionType(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.DeviceConnectionTypeSetDeviceConnectionType">
+            <summary>Legt die Shim von DeviceConnectionFactory.set_DeviceConnectionType(DeviceConnectionFactory this, DeviceConnectionType value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.SerialConnectionOptionsGet">
+            <summary>Legt die Shim von DeviceConnectionFactory.get_SerialConnectionOptions(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.SerialConnectionOptionsSetSerialConnectionOptions">
+            <summary>Legt die Shim von DeviceConnectionFactory.set_SerialConnectionOptions(DeviceConnectionFactory this, SerialConnectionOptions value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.SimulationConnectionOptionsGet">
+            <summary>Legt die Shim von DeviceConnectionFactory.get_SimulationConnectionOptions(DeviceConnectionFactory this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimDeviceConnectionFactory.SimulationConnectionOptionsSetSimulationConnectionOptions">
+            <summary>Legt die Shim von DeviceConnectionFactory.set_SimulationConnectionOptions(DeviceConnectionFactory this, SimulationConnectionOptions value) fest.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.ShimSensorDataReceivedArgs">
+            <summary>Shim-Typ von Connection.Communication.SensorDataReceivedArgs</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.#ctor(Connection.Communication.SensorDataReceivedArgs)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.AllInstances.RawDataGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_RawData(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.AllInstances.RawDataReceivedGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_RawDataReceived(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.AllInstances.RawDataSetByteArray">
+            <summary>Legt die Shim von SensorDataReceivedArgs.set_RawData(SensorDataReceivedArgs this, Byte[] value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.AllInstances.StringDataGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_StringData(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.AllInstances.StringDataSetString">
+            <summary>Legt die Shim von SensorDataReceivedArgs.set_StringData(SensorDataReceivedArgs this, String value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.AllInstances.StringReceivedGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_StringReceived(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.ConstructorStringByteArray">
+            <summary>Legt die Shim von SensorDataReceivedArgs.SensorDataReceivedArgs(SensorDataReceivedArgs this, String stringData, Byte[] rawData) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.RawDataGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_RawData(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.RawDataReceivedGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_RawDataReceived(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.RawDataSetByteArray">
+            <summary>Legt die Shim von SensorDataReceivedArgs.set_RawData(SensorDataReceivedArgs this, Byte[] value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.StringDataGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_StringData(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.StringDataSetString">
+            <summary>Legt die Shim von SensorDataReceivedArgs.set_StringData(SensorDataReceivedArgs this, String value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorDataReceivedArgs.StringReceivedGet">
+            <summary>Legt die Shim von SensorDataReceivedArgs.get_StringReceived(SensorDataReceivedArgs this) fest.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.ShimSensorHub">
+            <summary>Shim-Typ von Connection.Communication.SensorHub</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorHub.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorHub.#ctor(Connection.Communication.SensorHub)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.ShimSensorHub.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.AllInstances.Connection_ByteArrayReceivedObjectByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SensorHub.Connection_ByteArrayReceived(SensorHub this, Object sender, ByteArrayReceivedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.AllInstances.Connection_StringReceivedObjectStringReceivedEventArgs">
+            <summary>Legt die Shim von SensorHub.Connection_StringReceived(SensorHub this, Object sender, StringReceivedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.AllInstances.Connection_WriteByteDataByte">
+            <summary>Legt die Shim von SensorHub.Connection_WriteByteData(SensorHub this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.AllInstances.Connection_WriteStringDataString">
+            <summary>Legt die Shim von SensorHub.Connection_WriteStringData(SensorHub this, String data) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.AllInstances.Initialize">
+            <summary>Legt die Shim von SensorHub.Initialize(SensorHub this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.AllInstances.SensorDataReceivedAddEventHandlerOfSensorDataReceivedArgs">
+            <summary>Legt die Shim von SensorHub.add_SensorDataReceived(SensorHub this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.AllInstances.SensorDataReceivedRemoveEventHandlerOfSensorDataReceivedArgs">
+            <summary>Legt die Shim von SensorHub.remove_SensorDataReceived(SensorHub this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorHub.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorHub.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.ShimSensorHub.Bind(Connection.Communication.Contracts.ISensorHub)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.Connection_ByteArrayReceivedObjectByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SensorHub.Connection_ByteArrayReceived(SensorHub this, Object sender, ByteArrayReceivedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.Connection_StringReceivedObjectStringReceivedEventArgs">
+            <summary>Legt die Shim von SensorHub.Connection_StringReceived(SensorHub this, Object sender, StringReceivedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.Connection_WriteByteDataByte">
+            <summary>Legt die Shim von SensorHub.Connection_WriteByteData(SensorHub this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.Connection_WriteStringDataString">
+            <summary>Legt die Shim von SensorHub.Connection_WriteStringData(SensorHub this, String data) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.ConstructorDeviceConnectionFactory">
+            <summary>Legt die Shim von SensorHub.SensorHub(SensorHub this, DeviceConnectionFactory deviceConnectionFactory) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.Initialize">
+            <summary>Legt die Shim von SensorHub.Initialize(SensorHub this) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.SensorDataReceivedAddEventHandlerOfSensorDataReceivedArgs">
+            <summary>Legt die Shim von SensorHub.add_SensorDataReceived(SensorHub this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.ShimSensorHub.SensorDataReceivedRemoveEventHandlerOfSensorDataReceivedArgs">
+            <summary>Legt die Shim von SensorHub.remove_SensorDataReceived(SensorHub this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.StubDeviceConnectionFactory">
+            <summary>Stub-Typ von Connection.Communication.DeviceConnectionFactory</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.StubDeviceConnectionFactory.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubDeviceConnectionFactory.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.StubDeviceConnectionFactory.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubDeviceConnectionFactory.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubDeviceConnectionFactory.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubDeviceConnectionFactory.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.StubSensorDataReceivedArgs">
+            <summary>Stub-Typ von Connection.Communication.SensorDataReceivedArgs</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.StubSensorDataReceivedArgs.#ctor(System.String,System.Byte[])">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubSensorDataReceivedArgs.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.StubSensorDataReceivedArgs.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubSensorDataReceivedArgs.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubSensorDataReceivedArgs.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubSensorDataReceivedArgs.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Connection.Communication.Fakes.StubSensorHub">
+            <summary>Stub-Typ von Connection.Communication.SensorHub</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.StubSensorHub.#ctor(Connection.Communication.DeviceConnectionFactory)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubSensorHub.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Communication.Fakes.StubSensorHub.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubSensorHub.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubSensorHub.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Communication.Fakes.StubSensorHub.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Connection.Extensions.Fakes.ShimIApplicationBuilderExtensions">
+            <summary>Shim-Typ von Connection.Extensions.IApplicationBuilderExtensions</summary>
+        </member>
+        <member name="M:Connection.Extensions.Fakes.ShimIApplicationBuilderExtensions.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Extensions.Fakes.ShimIApplicationBuilderExtensions.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Extensions.Fakes.ShimIApplicationBuilderExtensions.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Extensions.Fakes.ShimIApplicationBuilderExtensions.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Extensions.Fakes.ShimIApplicationBuilderExtensions.UseSensorHubIApplicationBuilder">
+            <summary>Legt die Shim von IApplicationBuilderExtensions.UseSensorHub(IApplicationBuilder app) fest.</summary>
+        </member>
+        <member name="T:Connection.Extensions.Fakes.ShimIServiceCollectionExtensions">
+            <summary>Shim-Typ von Connection.Extensions.IServiceCollectionExtensions</summary>
+        </member>
+        <member name="M:Connection.Extensions.Fakes.ShimIServiceCollectionExtensions.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="P:Connection.Extensions.Fakes.ShimIServiceCollectionExtensions.AddSensorHubIServiceCollectionIConfiguration">
+            <summary>Legt die Shim von IServiceCollectionExtensions.AddSensorHub(IServiceCollection services, IConfiguration configuration) fest.</summary>
+        </member>
+        <member name="M:Connection.Extensions.Fakes.ShimIServiceCollectionExtensions.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Extensions.Fakes.ShimIServiceCollectionExtensions.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Extensions.Fakes.ShimIServiceCollectionExtensions.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection">
+            <summary>Shim-Typ von Connection.Protocols.Contracts.DeviceConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.#ctor(Connection.Protocols.Contracts.DeviceConnection)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.AllInstances.Connect">
+            <summary>Legt die Shim von DeviceConnection.Connect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.AllInstances.Disconnect">
+            <summary>Legt die Shim von DeviceConnection.Disconnect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.AllInstances.WriteByte">
+            <summary>Legt die Shim von DeviceConnection.Write(DeviceConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.AllInstances.WriteString">
+            <summary>Legt die Shim von DeviceConnection.Write(DeviceConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.Connect">
+            <summary>Legt die Shim von DeviceConnection.Connect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.Constructor">
+            <summary>Legt die Shim von DeviceConnection.DeviceConnection(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.Disconnect">
+            <summary>Legt die Shim von DeviceConnection.Disconnect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.WriteByte">
+            <summary>Legt die Shim von DeviceConnection.Write(DeviceConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.ShimDeviceConnection.WriteString">
+            <summary>Legt die Shim von DeviceConnection.Write(DeviceConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Contracts.Fakes.StubDeviceConnection">
+            <summary>Stub-Typ von Connection.Protocols.Contracts.DeviceConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.Connect">
+            <summary>Legt die Stub von DeviceConnection.Connect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.Connect01">
+            <summary>Legt die stub von DeviceConnection.Connect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.Disconnect">
+            <summary>Legt die Stub von DeviceConnection.Disconnect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.Disconnect01">
+            <summary>Legt die stub von DeviceConnection.Disconnect(DeviceConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubDeviceConnection.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.Write(System.String)">
+            <summary>Legt die Stub von DeviceConnection.Write(DeviceConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.Write(System.Byte)">
+            <summary>Legt die Stub von DeviceConnection.Write(DeviceConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.WriteByte">
+            <summary>Legt die stub von DeviceConnection.Write(DeviceConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Contracts.Fakes.StubDeviceConnection.WriteString">
+            <summary>Legt die stub von DeviceConnection.Write(DeviceConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs">
+            <summary>Shim-Typ von Connection.Protocols.Events.ByteArrayReceivedEventArgs</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.#ctor(Connection.Protocols.Events.ByteArrayReceivedEventArgs)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.AllInstances.DataGet">
+            <summary>Legt die Shim von ByteArrayReceivedEventArgs.get_Data(ByteArrayReceivedEventArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.AllInstances.DataSetByteArray">
+            <summary>Legt die Shim von ByteArrayReceivedEventArgs.set_Data(ByteArrayReceivedEventArgs this, Byte[] value) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.ConstructorByteArray">
+            <summary>Legt die Shim von ByteArrayReceivedEventArgs.ByteArrayReceivedEventArgs(ByteArrayReceivedEventArgs this, Byte[] data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.DataGet">
+            <summary>Legt die Shim von ByteArrayReceivedEventArgs.get_Data(ByteArrayReceivedEventArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimByteArrayReceivedEventArgs.DataSetByteArray">
+            <summary>Legt die Shim von ByteArrayReceivedEventArgs.set_Data(ByteArrayReceivedEventArgs this, Byte[] value) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs">
+            <summary>Shim-Typ von Connection.Protocols.Events.StringReceivedEventArgs</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.#ctor(Connection.Protocols.Events.StringReceivedEventArgs)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.AllInstances.DataGet">
+            <summary>Legt die Shim von StringReceivedEventArgs.get_Data(StringReceivedEventArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.AllInstances.DataSetString">
+            <summary>Legt die Shim von StringReceivedEventArgs.set_Data(StringReceivedEventArgs this, String value) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.ConstructorString">
+            <summary>Legt die Shim von StringReceivedEventArgs.StringReceivedEventArgs(StringReceivedEventArgs this, String input) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.DataGet">
+            <summary>Legt die Shim von StringReceivedEventArgs.get_Data(StringReceivedEventArgs this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.ShimStringReceivedEventArgs.DataSetString">
+            <summary>Legt die Shim von StringReceivedEventArgs.set_Data(StringReceivedEventArgs this, String value) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Events.Fakes.StubByteArrayReceivedEventArgs">
+            <summary>Stub-Typ von Connection.Protocols.Events.ByteArrayReceivedEventArgs</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.StubByteArrayReceivedEventArgs.#ctor(System.Byte[])">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.StubByteArrayReceivedEventArgs.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.StubByteArrayReceivedEventArgs.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubByteArrayReceivedEventArgs.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.StubByteArrayReceivedEventArgs.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.StubByteArrayReceivedEventArgs.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Events.Fakes.StubStringReceivedEventArgs">
+            <summary>Stub-Typ von Connection.Protocols.Events.StringReceivedEventArgs</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.StubStringReceivedEventArgs.#ctor(System.String)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.StubStringReceivedEventArgs.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Events.Fakes.StubStringReceivedEventArgs.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubStringReceivedEventArgs.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.StubStringReceivedEventArgs.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Events.Fakes.StubStringReceivedEventArgs.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.ShimSerialConnection">
+            <summary>Shim-Typ von Connection.Protocols.SerialConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSerialConnection.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSerialConnection.#ctor(Connection.Protocols.SerialConnection)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.ByteArrayReceivedAddEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.add_ByteArrayReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.ByteArrayReceivedRemoveEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.remove_ByteArrayReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.Connect">
+            <summary>Legt die Shim von SerialConnection.Connect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.Disconnect">
+            <summary>Legt die Shim von SerialConnection.Disconnect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.SerialPort_DataReceivedObjectSerialDataReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.SerialPort_DataReceived(SerialConnection this, Object sender, SerialDataReceivedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.StringReceivedAddEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.add_StringReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.StringReceivedRemoveEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.remove_StringReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.WriteByte">
+            <summary>Legt die Shim von SerialConnection.Write(SerialConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.AllInstances.WriteString">
+            <summary>Legt die Shim von SerialConnection.Write(SerialConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSerialConnection.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSerialConnection.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.ByteArrayReceivedAddEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.add_ByteArrayReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.ByteArrayReceivedRemoveEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.remove_ByteArrayReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.Connect">
+            <summary>Legt die Shim von SerialConnection.Connect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.ConstructorSerialConnectionOptions">
+            <summary>Legt die Shim von SerialConnection.SerialConnection(SerialConnection this, SerialConnectionOptions serialConnectionOptions) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.Disconnect">
+            <summary>Legt die Shim von SerialConnection.Disconnect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.SerialPort_DataReceivedObjectSerialDataReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.SerialPort_DataReceived(SerialConnection this, Object sender, SerialDataReceivedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.StringReceivedAddEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.add_StringReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.StringReceivedRemoveEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SerialConnection.remove_StringReceived(SerialConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.WriteByte">
+            <summary>Legt die Shim von SerialConnection.Write(SerialConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSerialConnection.WriteString">
+            <summary>Legt die Shim von SerialConnection.Write(SerialConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.ShimSimulationConnection">
+            <summary>Shim-Typ von Connection.Protocols.SimulationConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSimulationConnection.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSimulationConnection.#ctor(Connection.Protocols.SimulationConnection)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.ByteArrayReceivedAddEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.add_ByteArrayReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.ByteArrayReceivedRemoveEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.remove_ByteArrayReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.Connect">
+            <summary>Legt die Shim von SimulationConnection.Connect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.Disconnect">
+            <summary>Legt die Shim von SimulationConnection.Disconnect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.StringReceivedAddEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.add_StringReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.StringReceivedRemoveEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.remove_StringReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.Timer_ElapsedObjectElapsedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.Timer_Elapsed(SimulationConnection this, Object sender, ElapsedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.WriteByte">
+            <summary>Legt die Shim von SimulationConnection.Write(SimulationConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.AllInstances.WriteString">
+            <summary>Legt die Shim von SimulationConnection.Write(SimulationConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSimulationConnection.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimSimulationConnection.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.ByteArrayReceivedAddEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.add_ByteArrayReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.ByteArrayReceivedRemoveEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.remove_ByteArrayReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.Connect">
+            <summary>Legt die Shim von SimulationConnection.Connect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.ConstructorSimulationConnectionOptions">
+            <summary>Legt die Shim von SimulationConnection.SimulationConnection(SimulationConnection this, SimulationConnectionOptions simulationConnectionOptions) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.Disconnect">
+            <summary>Legt die Shim von SimulationConnection.Disconnect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.StringReceivedAddEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.add_StringReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.StringReceivedRemoveEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.remove_StringReceived(SimulationConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.Timer_ElapsedObjectElapsedEventArgs">
+            <summary>Legt die Shim von SimulationConnection.Timer_Elapsed(SimulationConnection this, Object sender, ElapsedEventArgs e) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.WriteByte">
+            <summary>Legt die Shim von SimulationConnection.Write(SimulationConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimSimulationConnection.WriteString">
+            <summary>Legt die Shim von SimulationConnection.Write(SimulationConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.ShimTestConnection">
+            <summary>Shim-Typ von Connection.Protocols.TestConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimTestConnection.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimTestConnection.#ctor(Connection.Protocols.TestConnection)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.ShimTestConnection.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.ByteArrayReceivedAddEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.add_ByteArrayReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.ByteArrayReceivedRemoveEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.remove_ByteArrayReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.Connect">
+            <summary>Legt die Shim von TestConnection.Connect(TestConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.Disconnect">
+            <summary>Legt die Shim von TestConnection.Disconnect(TestConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.StringReceivedAddEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.add_StringReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.StringReceivedRemoveEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.remove_StringReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.WriteByte">
+            <summary>Legt die Shim von TestConnection.Write(TestConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.AllInstances.WriteString">
+            <summary>Legt die Shim von TestConnection.Write(TestConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimTestConnection.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.ShimTestConnection.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.ByteArrayReceivedAddEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.add_ByteArrayReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.ByteArrayReceivedRemoveEventHandlerOfByteArrayReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.remove_ByteArrayReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.Connect">
+            <summary>Legt die Shim von TestConnection.Connect(TestConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.Constructor">
+            <summary>Legt die Shim von TestConnection.TestConnection(TestConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.Disconnect">
+            <summary>Legt die Shim von TestConnection.Disconnect(TestConnection this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.StringReceivedAddEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.add_StringReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.StringReceivedRemoveEventHandlerOfStringReceivedEventArgs">
+            <summary>Legt die Shim von TestConnection.remove_StringReceived(TestConnection this, EventHandler`1 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.WriteByte">
+            <summary>Legt die Shim von TestConnection.Write(TestConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.ShimTestConnection.WriteString">
+            <summary>Legt die Shim von TestConnection.Write(TestConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.StubSerialConnection">
+            <summary>Stub-Typ von Connection.Protocols.SerialConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSerialConnection.#ctor(Connection.Protocols.Options.SerialConnectionOptions)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubSerialConnection.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSerialConnection.Connect">
+            <summary>Legt die Stub von SerialConnection.Connect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSerialConnection.Connect01">
+            <summary>Legt die stub von SerialConnection.Connect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSerialConnection.Disconnect">
+            <summary>Legt die Stub von SerialConnection.Disconnect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSerialConnection.Disconnect01">
+            <summary>Legt die stub von SerialConnection.Disconnect(SerialConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSerialConnection.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubSerialConnection.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubSerialConnection.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubSerialConnection.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSerialConnection.Write(System.String)">
+            <summary>Legt die Stub von SerialConnection.Write(SerialConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSerialConnection.Write(System.Byte)">
+            <summary>Legt die Stub von SerialConnection.Write(SerialConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSerialConnection.WriteByte">
+            <summary>Legt die stub von SerialConnection.Write(SerialConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSerialConnection.WriteString">
+            <summary>Legt die stub von SerialConnection.Write(SerialConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.StubSimulationConnection">
+            <summary>Stub-Typ von Connection.Protocols.SimulationConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSimulationConnection.#ctor(Connection.Protocols.Options.SimulationConnectionOptions)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubSimulationConnection.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSimulationConnection.Connect">
+            <summary>Legt die Stub von SimulationConnection.Connect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSimulationConnection.Connect01">
+            <summary>Legt die stub von SimulationConnection.Connect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSimulationConnection.Disconnect">
+            <summary>Legt die Stub von SimulationConnection.Disconnect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSimulationConnection.Disconnect01">
+            <summary>Legt die stub von SimulationConnection.Disconnect(SimulationConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSimulationConnection.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubSimulationConnection.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubSimulationConnection.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubSimulationConnection.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSimulationConnection.Write(System.String)">
+            <summary>Legt die Stub von SimulationConnection.Write(SimulationConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubSimulationConnection.Write(System.Byte)">
+            <summary>Legt die Stub von SimulationConnection.Write(SimulationConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSimulationConnection.WriteByte">
+            <summary>Legt die stub von SimulationConnection.Write(SimulationConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubSimulationConnection.WriteString">
+            <summary>Legt die stub von SimulationConnection.Write(SimulationConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Fakes.StubTestConnection">
+            <summary>Stub-Typ von Connection.Protocols.TestConnection</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubTestConnection.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubTestConnection.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubTestConnection.Connect">
+            <summary>Legt die Stub von TestConnection.Connect(TestConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubTestConnection.Connect01">
+            <summary>Legt die stub von TestConnection.Connect(TestConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubTestConnection.Disconnect">
+            <summary>Legt die Stub von TestConnection.Disconnect(TestConnection this) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubTestConnection.Disconnect01">
+            <summary>Legt die stub von TestConnection.Disconnect(TestConnection this) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubTestConnection.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubTestConnection.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubTestConnection.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Fakes.StubTestConnection.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubTestConnection.Write(System.String)">
+            <summary>Legt die Stub von TestConnection.Write(TestConnection this, String data) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Fakes.StubTestConnection.Write(System.Byte)">
+            <summary>Legt die Stub von TestConnection.Write(TestConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubTestConnection.WriteByte">
+            <summary>Legt die stub von TestConnection.Write(TestConnection this, Byte data) fest.</summary>
+        </member>
+        <member name="F:Connection.Protocols.Fakes.StubTestConnection.WriteString">
+            <summary>Legt die stub von TestConnection.Write(TestConnection this, String data) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions">
+            <summary>Shim-Typ von Connection.Protocols.Options.SerialConnectionOptions</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.#ctor(Connection.Protocols.Options.SerialConnectionOptions)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.BaudRateGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_BaudRate(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.BaudRateSetInt32">
+            <summary>Legt die Shim von SerialConnectionOptions.set_BaudRate(SerialConnectionOptions this, Int32 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.DataBitsGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_DataBits(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.DataBitsSetInt32">
+            <summary>Legt die Shim von SerialConnectionOptions.set_DataBits(SerialConnectionOptions this, Int32 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.ParityGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_Parity(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.ParitySetParity">
+            <summary>Legt die Shim von SerialConnectionOptions.set_Parity(SerialConnectionOptions this, Parity value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.PortNameGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_PortName(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.PortNameSetString">
+            <summary>Legt die Shim von SerialConnectionOptions.set_PortName(SerialConnectionOptions this, String value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.StopBitsGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_StopBits(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.AllInstances.StopBitsSetStopBits">
+            <summary>Legt die Shim von SerialConnectionOptions.set_StopBits(SerialConnectionOptions this, StopBits value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.BaudRateGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_BaudRate(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.BaudRateSetInt32">
+            <summary>Legt die Shim von SerialConnectionOptions.set_BaudRate(SerialConnectionOptions this, Int32 value) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.Constructor">
+            <summary>Legt die Shim von SerialConnectionOptions.SerialConnectionOptions(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.DataBitsGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_DataBits(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.DataBitsSetInt32">
+            <summary>Legt die Shim von SerialConnectionOptions.set_DataBits(SerialConnectionOptions this, Int32 value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.ParityGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_Parity(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.ParitySetParity">
+            <summary>Legt die Shim von SerialConnectionOptions.set_Parity(SerialConnectionOptions this, Parity value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.PortNameGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_PortName(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.PortNameSetString">
+            <summary>Legt die Shim von SerialConnectionOptions.set_PortName(SerialConnectionOptions this, String value) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.StopBitsGet">
+            <summary>Legt die Shim von SerialConnectionOptions.get_StopBits(SerialConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSerialConnectionOptions.StopBitsSetStopBits">
+            <summary>Legt die Shim von SerialConnectionOptions.set_StopBits(SerialConnectionOptions this, StopBits value) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions">
+            <summary>Shim-Typ von Connection.Protocols.Options.SimulationConnectionOptions</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.#ctor(Connection.Protocols.Options.SimulationConnectionOptions)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.AllInstances.ReadCycleGet">
+            <summary>Legt die Shim von SimulationConnectionOptions.get_ReadCycle(SimulationConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.AllInstances.ReadCycleSetInt32">
+            <summary>Legt die Shim von SimulationConnectionOptions.set_ReadCycle(SimulationConnectionOptions this, Int32 value) fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.Constructor">
+            <summary>Legt die Shim von SimulationConnectionOptions.SimulationConnectionOptions(SimulationConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.ReadCycleGet">
+            <summary>Legt die Shim von SimulationConnectionOptions.get_ReadCycle(SimulationConnectionOptions this) fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.ShimSimulationConnectionOptions.ReadCycleSetInt32">
+            <summary>Legt die Shim von SimulationConnectionOptions.set_ReadCycle(SimulationConnectionOptions this, Int32 value) fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Options.Fakes.StubSerialConnectionOptions">
+            <summary>Stub-Typ von Connection.Protocols.Options.SerialConnectionOptions</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.StubSerialConnectionOptions.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.StubSerialConnectionOptions.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.StubSerialConnectionOptions.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubSerialConnectionOptions.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.StubSerialConnectionOptions.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.StubSerialConnectionOptions.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Connection.Protocols.Options.Fakes.StubSimulationConnectionOptions">
+            <summary>Stub-Typ von Connection.Protocols.Options.SimulationConnectionOptions</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.StubSimulationConnectionOptions.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.StubSimulationConnectionOptions.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:Connection.Protocols.Options.Fakes.StubSimulationConnectionOptions.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubSimulationConnectionOptions.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.StubSimulationConnectionOptions.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Connection.Protocols.Options.Fakes.StubSimulationConnectionOptions.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+    </members>
+</doc>
